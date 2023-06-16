@@ -1,13 +1,11 @@
 /*  your css code here. If applicable */
-div{
-	display:inline;
 
+div::before{
+	content:"Before Element";
+	color:red;
 }
 
-.Before{
- color:red;
-}
-
-.After{
+div::after{
+	content:"After Element";
 	color:red;
 }
